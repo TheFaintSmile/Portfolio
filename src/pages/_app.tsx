@@ -4,9 +4,9 @@ import Head from 'next/head'
 import { Footer } from '@elements'
 
 const meta = {
-  title: "Alvaro's Portoflio",
+  title: "Alvaro's Portfolio",
   description:
-    'Alvaro Austin personal website porfolio for showcasing experience and projects.',
+    'Alvaro Austin personal website portfolio for showcasing experience and projects.',
 }
 export default function App({ Component, pageProps }: AppProps) {
   return (
