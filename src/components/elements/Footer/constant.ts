@@ -1,5 +1,5 @@
 export const menu = [
-  { name: 'Source Code', href: 'https://github.com/TheFaintSmile/Portofolio' },
+  { name: 'Source Code', href: 'https://github.com/TheFaintSmile/Portfolio' },
 ]
 
 export const socialMedia = [

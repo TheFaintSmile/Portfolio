@@ -4,7 +4,7 @@ import Head from 'next/head'
 import { Footer } from '@elements'
 
 const meta = {
-  title: "Alvaro's Portofolio",
+  title: "Alvaro's Portoflio",
   description:
     'Alvaro Austin personal website porfolio for showcasing experience and projects.',
 }
