@@ -1,2 +1,2 @@
 export const BTN_STYLE =
-  'text-deepblue bg-white font-bold px-8 py-2 border-[3px] border-deepblue hover:bg-deepblue hover:text-white duration-300'
+  'text-white font-bold px-8 py-2 border-2 border-primary hover:bg-primary hover:text-white duration-300 w-fit'

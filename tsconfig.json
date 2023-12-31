@@ -26,7 +26,12 @@
       "@pages/*": ["src/pages/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/components/elements/v2/SkillBox/index.tsx"
+  ],
   "exclude": ["node_modules"],
   "extends": "@tsconfig/next/tsconfig.json"
 }

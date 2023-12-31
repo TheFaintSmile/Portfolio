@@ -1,36 +1,42 @@
 import { TechStackProps } from './interface'
 
-export const ABOUT_DESCRIPTION: React.ReactNode = (
-  <p className="md:leading-10 min-[426px]:leading-8 leading-6 md:text-xl text-justify min-[426px]:text-base text-xs">
-    {' '}
-    I&apos;m a university student studying computer science in University of
-    Indonesia. I joined as a student in 2021. Although, I&apos;m intrigued on
-    every branch in computer science career path, I started began my interest in
-    Web Development on April 2022. After the spark of my interest, I started
-    developing my skill as Web Developer in Frontend and Backend. At this point
-    of time, I crave to be a full stack developer but the future career remain
-    unsure. <br /> <br />
-    Through my experience, I am considered a pretty{' '}
-    <span className="font-bold"> fast learner </span>. Not only that, I&apos;m
-    also an <span className="font-bold"> ambitious </span> and{' '}
-    <span className="font-bold"> committed person </span>. Evidence of these
-    qualities can be found from my experience being a best staff in BEM Fasilkom
-    UI in just a month of doing web development. I was also offered several
-    position as{' '}
-    <span className="font-bold text-deepblue"> person in charge </span> in
-    different commiitees. However I chose to be vice person in charge due to
-    tight schedule and academics. <br /> <br />I believe I could prove more of
-    my qualities if more opportunities were given to me. I&apos;m really open
-    for collaborations. Hence, to know me more,{' '}
-    <span className="font-bold text-deepblue"> you can checkout my CV </span>{' '}
-    below!{' '}
-  </p>
-)
-
 export const URL_CV: string =
-  'https://docs.google.com/document/d/1xgvwySOpI_65RMAPcY_YEb49E-zEvtbhZItHfwxG8RI/edit?usp=sharing'
+  'https://docs.google.com/document/d/1omsQyNm0qcrr5CL_4yK5J2S4-GEpbJdaj9XxYgtex1E/edit?usp=sharing'
 export const URL_PIC: string = '/assets/images/ProfilePict2.jpg'
 export const ALT_PIC: string = 'ProfileAbout'
+
+export const WORK_EXPERIENCE = [
+  {
+    company: 'PT Digiafa Kreasi Nusantara',
+    role: 'Full-stack Developer Intern',
+    description:
+      'Responsible for enhancing user experience by redesigning the UI to broaden audience appeal. Conducting thorough bug fixes and User Acceptance Testing (UAT) to ensure software quality. Proficient in managing application states for seamless control and manipulation.',
+  },
+  {
+    company: 'BEM Fasilkom UI',
+    role: 'Head of Information Technology Department',
+    description:
+      'Leading and nurturing a team of 8 individuals to foster their IT interests. Developing internal websites for BEM Fasilkom UI to enhance productivity. Collaborating closely with two colleagues to efficiently manage synchronized vision for waterfall projects.',
+  },
+  {
+    company: 'OKK UI',
+    role: 'Head of Information Technology and Broadcast',
+    description:
+      'Led a high-performing team to build a scalable website handling thousands of daily users. Tripled web traffic and improved SEO, boosting accessibility and search rankings. Optimized loading times for a smoother user experience.',
+  },
+  {
+    company: 'Educare Fasilkom UI',
+    role: 'Vice President of IT Development Division',
+    description:
+      'Leading an 11-member cross-functional team, comprising software engineers and UI/UX specialists. Proficiently executing tasks swiftly within tight deadlines, employing optimal strategies for timely completion of website projects.',
+  },
+  {
+    company: 'BETIS Fasilkom UI',
+    role: 'Vice President of Web Development Division',
+    description:
+      "Led a team of 12 individuals to develop a free tuition website. Collaborated closely with the design team to ensure the website's UI/UX is in line with the client's vision.",
+  },
+]
 
 export const TECH_STACK: TechStackProps[] = [
   {

@@ -1,16 +1,18 @@
 import React from 'react'
-import { AboutModule } from '../AboutModule'
-import { ImageSection } from './ImageSection'
-import { ProfileSection } from './ProfileSection'
-import { ProjectSection } from './ProjectSection'
-import { WorkExperience } from './WorkExperience'
+import {
+  AboutMeSection,
+  ContactSection,
+  HeroSection,
+  ProjectSection,
+  SkillSection,
+} from './v2'
 
 export const HomeModule: React.FC = () => (
-  <>
-    <ImageSection />
-    <ProfileSection />
-    <AboutModule />
-    <WorkExperience />
+  <div className="flex flex-col gap-y-20 py-16 relative">
+    <HeroSection />
     <ProjectSection />
-  </>
+    <SkillSection />
+    <AboutMeSection />
+    <ContactSection />
+  </div>
 )

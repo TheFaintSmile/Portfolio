@@ -2,9 +2,98 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  @font-face {
-    font-family: 'Roboto Slab';
-    src: url('./../../public/fonts/RobotoSlab-Regular.ttf');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --tw-bg-opacity: 1;
+  --tw-text-opacity: 1;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --tw-bg-opacity: 1;
+    --tw-text-opacity: 1;
   }
+}
+
+body {
+  color: #abb2bf;
+  background-color: #282c33;
+  font-family: 'Fira Code', monospace;
+}
+
+body.disable-scroll {
+  overflow: hidden;
+}
+
+blockquote {
+  display: block;
+  padding: 15px 25px 15px 60px;
+  position: relative;
+
+  /*Font*/
+  font-size: 20px;
+  line-height: 1.5;
+  color: #abb2bf;
+
+  /*Borders - (Optional)*/
+  border-left-style: solid;
+  border-left-width: 10px;
+  border-right-style: solid;
+  border-right-width: 3px;
+  border-top-style: solid;
+  border-top-width: 3px;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+}
+
+blockquote::before {
+  content: '\201C';
+
+  font-size: 60px;
+  font-weight: bold;
+  color: #abb2bf;
+
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top: 0px;
+}
+
+blockquote::after {
+  /*Reset to make sure*/
+  content: '';
+}
+
+blockquote a {
+  text-decoration: none;
+  background: #eee;
+  cursor: pointer;
+  padding: 0 6px;
+  color: #c76c0c;
+}
+
+blockquote a:hover {
+  color: #abb2bf;
+}
+
+blockquote em {
+  font-style: italic;
+}
+
+blockquote.blockquote {
+  border-left-color: #3d80bb;
+}
+
+.slick-list {
+  margin: 0 -5px;
+  display: grid;
+}
+.slick-slide > div {
+  padding: 0 5px;
+  height: 100%;
+}
+
+.slick-dots li button:before {
+  color: #98c379 !important;
 }
