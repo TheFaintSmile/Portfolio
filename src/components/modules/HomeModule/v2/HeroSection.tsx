@@ -40,7 +40,7 @@ export const HeroSection = () => (
       </div>
       <div className="relative flex flex-col items-center">
         <Image
-          src={'/assets/images/profile.png'}
+          src={'/assets/images/Profile.png'}
           alt={'profile'}
           width={200}
           height={200}

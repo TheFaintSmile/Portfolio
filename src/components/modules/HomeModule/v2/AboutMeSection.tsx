@@ -40,7 +40,7 @@ export const AboutMeSection: React.FC = () => (
         </Link>
       </div>
       <Image
-        src={'/assets/images/formal.png'}
+        src={'/assets/images/Formal.png'}
         alt={'formal'}
         width={400}
         height={400}
